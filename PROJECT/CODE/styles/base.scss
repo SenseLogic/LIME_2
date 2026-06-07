@@ -1,0 +1,871 @@
+$blackColor: #000000;
+$whiteColor: #ffffff;
+
+$grayColor: #9e9e9e;
+$grayColor50: mix($grayColor, #000000, 90%);
+$grayColor100: mix($grayColor, #000000, 80%);
+$grayColor150: mix($grayColor, #000000, 70%);
+$grayColor200: mix($grayColor, #000000, 60%);
+$grayColor250: mix($grayColor, #000000, 50%);
+$grayColor300: mix($grayColor, #000000, 40%);
+$grayColor350: mix($grayColor, #000000, 30%);
+$grayColor400: mix($grayColor, #000000, 20%);
+$grayColor450: mix($grayColor, #000000, 10%);
+$grayColor500: $grayColor;
+$grayColor550: mix($grayColor, #ffffff, 10%);
+$grayColor600: mix($grayColor, #ffffff, 20%);
+$grayColor650: mix($grayColor, #ffffff, 30%);
+$grayColor700: mix($grayColor, #ffffff, 40%);
+$grayColor750: mix($grayColor, #ffffff, 50%);
+$grayColor800: mix($grayColor, #ffffff, 60%);
+$grayColor850: mix($grayColor, #ffffff, 70%);
+$grayColor900: mix($grayColor, #ffffff, 80%);
+$grayColor950: mix($grayColor, #ffffff, 90%);
+
+$amberColor: #fbbf24;
+$amberColor50: mix($amberColor, #000000, 90%);
+$amberColor100: mix($amberColor, #000000, 80%);
+$amberColor150: mix($amberColor, #000000, 70%);
+$amberColor200: mix($amberColor, #000000, 60%);
+$amberColor250: mix($amberColor, #000000, 50%);
+$amberColor300: mix($amberColor, #000000, 40%);
+$amberColor350: mix($amberColor, #000000, 30%);
+$amberColor400: mix($amberColor, #000000, 20%);
+$amberColor450: mix($amberColor, #000000, 10%);
+$amberColor500: $amberColor;
+$amberColor550: mix($amberColor, #ffffff, 10%);
+$amberColor600: mix($amberColor, #ffffff, 20%);
+$amberColor650: mix($amberColor, #ffffff, 30%);
+$amberColor700: mix($amberColor, #ffffff, 40%);
+$amberColor750: mix($amberColor, #ffffff, 50%);
+$amberColor800: mix($amberColor, #ffffff, 60%);
+$amberColor850: mix($amberColor, #ffffff, 70%);
+$amberColor900: mix($amberColor, #ffffff, 80%);
+$amberColor950: mix($amberColor, #ffffff, 90%);
+
+$blueColor: #2196f3;
+$blueColor50: mix($blueColor, #000000, 90%);
+$blueColor100: mix($blueColor, #000000, 80%);
+$blueColor150: mix($blueColor, #000000, 70%);
+$blueColor200: mix($blueColor, #000000, 60%);
+$blueColor250: mix($blueColor, #000000, 50%);
+$blueColor300: mix($blueColor, #000000, 40%);
+$blueColor350: mix($blueColor, #000000, 30%);
+$blueColor400: mix($blueColor, #000000, 20%);
+$blueColor450: mix($blueColor, #000000, 10%);
+$blueColor500: $blueColor;
+$blueColor550: mix($blueColor, #ffffff, 10%);
+$blueColor600: mix($blueColor, #ffffff, 20%);
+$blueColor650: mix($blueColor, #ffffff, 30%);
+$blueColor700: mix($blueColor, #ffffff, 40%);
+$blueColor750: mix($blueColor, #ffffff, 50%);
+$blueColor800: mix($blueColor, #ffffff, 60%);
+$blueColor850: mix($blueColor, #ffffff, 70%);
+$blueColor900: mix($blueColor, #ffffff, 80%);
+$blueColor950: mix($blueColor, #ffffff, 90%);
+
+$cyanColor: #00bcd4;
+$cyanColor50: mix($cyanColor, #000000, 90%);
+$cyanColor100: mix($cyanColor, #000000, 80%);
+$cyanColor150: mix($cyanColor, #000000, 70%);
+$cyanColor200: mix($cyanColor, #000000, 60%);
+$cyanColor250: mix($cyanColor, #000000, 50%);
+$cyanColor300: mix($cyanColor, #000000, 40%);
+$cyanColor350: mix($cyanColor, #000000, 30%);
+$cyanColor400: mix($cyanColor, #000000, 20%);
+$cyanColor450: mix($cyanColor, #000000, 10%);
+$cyanColor500: $cyanColor;
+$cyanColor550: mix($cyanColor, #ffffff, 10%);
+$cyanColor600: mix($cyanColor, #ffffff, 20%);
+$cyanColor650: mix($cyanColor, #ffffff, 30%);
+$cyanColor700: mix($cyanColor, #ffffff, 40%);
+$cyanColor750: mix($cyanColor, #ffffff, 50%);
+$cyanColor800: mix($cyanColor, #ffffff, 60%);
+$cyanColor850: mix($cyanColor, #ffffff, 70%);
+$cyanColor900: mix($cyanColor, #ffffff, 80%);
+$cyanColor950: mix($cyanColor, #ffffff, 90%);
+
+$greenColor: #10b981;
+$greenColor50: mix($greenColor, #000000, 90%);
+$greenColor100: mix($greenColor, #000000, 80%);
+$greenColor150: mix($greenColor, #000000, 70%);
+$greenColor200: mix($greenColor, #000000, 60%);
+$greenColor250: mix($greenColor, #000000, 50%);
+$greenColor300: mix($greenColor, #000000, 40%);
+$greenColor350: mix($greenColor, #000000, 30%);
+$greenColor400: mix($greenColor, #000000, 20%);
+$greenColor450: mix($greenColor, #000000, 10%);
+$greenColor500: $greenColor;
+$greenColor550: mix($greenColor, #ffffff, 10%);
+$greenColor600: mix($greenColor, #ffffff, 20%);
+$greenColor650: mix($greenColor, #ffffff, 30%);
+$greenColor700: mix($greenColor, #ffffff, 40%);
+$greenColor750: mix($greenColor, #ffffff, 50%);
+$greenColor800: mix($greenColor, #ffffff, 60%);
+$greenColor850: mix($greenColor, #ffffff, 70%);
+$greenColor900: mix($greenColor, #ffffff, 80%);
+$greenColor950: mix($greenColor, #ffffff, 90%);
+
+$magentaColor: #f700f7;
+$magentaColor50: mix($magentaColor, #000000, 90%);
+$magentaColor100: mix($magentaColor, #000000, 80%);
+$magentaColor150: mix($magentaColor, #000000, 70%);
+$magentaColor200: mix($magentaColor, #000000, 60%);
+$magentaColor250: mix($magentaColor, #000000, 50%);
+$magentaColor300: mix($magentaColor, #000000, 40%);
+$magentaColor350: mix($magentaColor, #000000, 30%);
+$magentaColor400: mix($magentaColor, #000000, 20%);
+$magentaColor450: mix($magentaColor, #000000, 10%);
+$magentaColor500: $magentaColor;
+$magentaColor550: mix($magentaColor, #ffffff, 10%);
+$magentaColor600: mix($magentaColor, #ffffff, 20%);
+$magentaColor650: mix($magentaColor, #ffffff, 30%);
+$magentaColor700: mix($magentaColor, #ffffff, 40%);
+$magentaColor750: mix($magentaColor, #ffffff, 50%);
+$magentaColor800: mix($magentaColor, #ffffff, 60%);
+$magentaColor850: mix($magentaColor, #ffffff, 70%);
+$magentaColor900: mix($magentaColor, #ffffff, 80%);
+$magentaColor950: mix($magentaColor, #ffffff, 90%);
+
+$orangeColor: #ff9800;
+$orangeColor50: mix($orangeColor, #000000, 90%);
+$orangeColor100: mix($orangeColor, #000000, 80%);
+$orangeColor150: mix($orangeColor, #000000, 70%);
+$orangeColor200: mix($orangeColor, #000000, 60%);
+$orangeColor250: mix($orangeColor, #000000, 50%);
+$orangeColor300: mix($orangeColor, #000000, 40%);
+$orangeColor350: mix($orangeColor, #000000, 30%);
+$orangeColor400: mix($orangeColor, #000000, 20%);
+$orangeColor450: mix($orangeColor, #000000, 10%);
+$orangeColor500: $orangeColor;
+$orangeColor550: mix($orangeColor, #ffffff, 10%);
+$orangeColor600: mix($orangeColor, #ffffff, 20%);
+$orangeColor650: mix($orangeColor, #ffffff, 30%);
+$orangeColor700: mix($orangeColor, #ffffff, 40%);
+$orangeColor750: mix($orangeColor, #ffffff, 50%);
+$orangeColor800: mix($orangeColor, #ffffff, 60%);
+$orangeColor850: mix($orangeColor, #ffffff, 70%);
+$orangeColor900: mix($orangeColor, #ffffff, 80%);
+$orangeColor950: mix($orangeColor, #ffffff, 90%);
+
+$redColor: #ef4444;
+$redColor50: mix($redColor, #000000, 90%);
+$redColor100: mix($redColor, #000000, 80%);
+$redColor150: mix($redColor, #000000, 70%);
+$redColor200: mix($redColor, #000000, 60%);
+$redColor250: mix($redColor, #000000, 50%);
+$redColor300: mix($redColor, #000000, 40%);
+$redColor350: mix($redColor, #000000, 30%);
+$redColor400: mix($redColor, #000000, 20%);
+$redColor450: mix($redColor, #000000, 10%);
+$redColor500: $redColor;
+$redColor550: mix($redColor, #ffffff, 10%);
+$redColor600: mix($redColor, #ffffff, 20%);
+$redColor650: mix($redColor, #ffffff, 30%);
+$redColor700: mix($redColor, #ffffff, 40%);
+$redColor750: mix($redColor, #ffffff, 50%);
+$redColor800: mix($redColor, #ffffff, 60%);
+$redColor850: mix($redColor, #ffffff, 70%);
+$redColor900: mix($redColor, #ffffff, 80%);
+$redColor950: mix($redColor, #ffffff, 90%);
+
+$tealColor: #14b8a6;
+$tealColor50: mix($tealColor, #000000, 90%);
+$tealColor100: mix($tealColor, #000000, 80%);
+$tealColor150: mix($tealColor, #000000, 70%);
+$tealColor200: mix($tealColor, #000000, 60%);
+$tealColor250: mix($tealColor, #000000, 50%);
+$tealColor300: mix($tealColor, #000000, 40%);
+$tealColor350: mix($tealColor, #000000, 30%);
+$tealColor400: mix($tealColor, #000000, 20%);
+$tealColor450: mix($tealColor, #000000, 10%);
+$tealColor500: $tealColor;
+$tealColor550: mix($tealColor, #ffffff, 10%);
+$tealColor600: mix($tealColor, #ffffff, 20%);
+$tealColor650: mix($tealColor, #ffffff, 30%);
+$tealColor700: mix($tealColor, #ffffff, 40%);
+$tealColor750: mix($tealColor, #ffffff, 50%);
+$tealColor800: mix($tealColor, #ffffff, 60%);
+$tealColor850: mix($tealColor, #ffffff, 70%);
+$tealColor900: mix($tealColor, #ffffff, 80%);
+$tealColor950: mix($tealColor, #ffffff, 90%);
+
+$yellowColor: #ffeb3b;
+$yellowColor50: mix($yellowColor, #000000, 90%);
+$yellowColor100: mix($yellowColor, #000000, 80%);
+$yellowColor150: mix($yellowColor, #000000, 70%);
+$yellowColor200: mix($yellowColor, #000000, 60%);
+$yellowColor250: mix($yellowColor, #000000, 50%);
+$yellowColor300: mix($yellowColor, #000000, 40%);
+$yellowColor350: mix($yellowColor, #000000, 30%);
+$yellowColor400: mix($yellowColor, #000000, 20%);
+$yellowColor450: mix($yellowColor, #000000, 10%);
+$yellowColor500: $yellowColor;
+$yellowColor550: mix($yellowColor, #ffffff, 10%);
+$yellowColor600: mix($yellowColor, #ffffff, 20%);
+$yellowColor650: mix($yellowColor, #ffffff, 30%);
+$yellowColor700: mix($yellowColor, #ffffff, 40%);
+$yellowColor750: mix($yellowColor, #ffffff, 50%);
+$yellowColor800: mix($yellowColor, #ffffff, 60%);
+$yellowColor850: mix($yellowColor, #ffffff, 70%);
+$yellowColor900: mix($yellowColor, #ffffff, 80%);
+$yellowColor950: mix($yellowColor, #ffffff, 90%);
+
+$tableBorderColor: #f0f0f0;
+$linkColor: #000000;
+$linkHoverColor: #202020;
+
+html {
+  height: 100%;
+  min-height: 100%;
+
+  font-size: 1rem;
+
+  @media (min-width: 90em) {
+    font-size: 1.1rem;
+  }
+
+  @media (min-width: 100em) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 110em) {
+    font-size: 1.3rem;
+  }
+
+  @media (min-width: 120em) {
+    font-size: 1.4rem;
+  }
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+
+  background-color: $whiteColor;
+
+  color: $blackColor;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+sup {
+  position: relative;
+  top: -0.7em;
+
+  font-size: 0.5em;
+  vertical-align: baseline;
+}
+
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+table tr:first-child {
+  font-weight: 700;
+  text-align: center;
+}
+
+td {
+  border: 1px solid $tableBorderColor;
+  padding: 0.5rem;
+}
+
+.link,
+.link-button {
+  color: $linkColor;
+
+  cursor: pointer;
+}
+
+.link:hover,
+.link-button:hover {
+  color: $linkHoverColor;
+}
+
+.paragraph {
+  min-height: 1em;
+}
+
+.paragraph + .paragraph {
+  margin-top: 0.8em;
+}
+
+.linebreak {
+  margin-bottom: 0.8em;
+
+  display: block;
+
+  content: "";
+}
+
+.title-1 {
+  font-size: 2rem;
+}
+
+.title-2 {
+  font-size: 1.75rem;
+}
+
+.title-3 {
+  font-size: 1.5rem;
+}
+
+.title-4 {
+  font-size: 1.25rem;
+}
+
+.dash-bullet-1 {
+  margin-left: 1em;
+}
+
+.dash-bullet-2 {
+  margin-left: 2em;
+}
+
+.dash-bullet-3 {
+  margin-left: 3em;
+}
+
+.dash-bullet-4 {
+  margin-left: 4em;
+}
+
+.dash-bullet-1::before,
+.dash-bullet-2::before,
+.dash-bullet-3::before,
+.dash-bullet-4::before {
+  position: absolute;
+  transform: translateX(-0.9em);
+
+  content: "-";
+}
+
+.round-bullet-1 {
+  margin-left: 1em;
+}
+
+.round-bullet-2 {
+  margin-left: 2em;
+}
+
+.round-bullet-3 {
+  margin-left: 3em;
+}
+
+.round-bullet-4 {
+  margin-left: 4em;
+}
+
+.round-bullet-1::before,
+.round-bullet-2::before,
+.round-bullet-3::before,
+.round-bullet-4::before {
+  position: absolute;
+  transform: translateX(-0.9em);
+
+  content: "\2022";
+}
+
+.hollow-bullet-1 {
+  margin-left: 1em;
+}
+
+.hollow-bullet-2 {
+  margin-left: 2em;
+}
+
+.hollow-bullet-3 {
+  margin-left: 3em;
+}
+
+.hollow-bullet-4 {
+  margin-left: 4em;
+}
+
+.hollow-bullet-1::before,
+.hollow-bullet-2::before,
+.hollow-bullet-3::before,
+.hollow-bullet-4::before {
+  position: absolute;
+  transform: translateX(-0.9em);
+
+  content: "\25E6";
+}
+
+.numbered-bullet-1 {
+  display: grid;
+  grid-template-columns: max(auto, 1em) 1fr;
+  gap: 0.5em;
+}
+
+.numbered-bullet-2 {
+  margin-left: 1.5em;
+
+  display: grid;
+  grid-template-columns: max(auto, 1em) 1fr;
+  gap: 0.5em;
+}
+
+.numbered-bullet-3 {
+  margin-left: 3em;
+
+  display: grid;
+  grid-template-columns: max(auto, 1em) 1fr;
+  gap: 0.5em;
+}
+
+.numbered-bullet-4 {
+  margin-left: 4.5em;
+
+  display: grid;
+  grid-template-columns: max(auto, 1em) 1fr;
+  gap: 0.5em;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.has-debug-outline * {
+  outline: 1px solid red !important;
+}
+
+.has-debug-outline *:hover {
+  outline: 2px solid green !important;
+}
+
+// ~~
+
+$primaryColor: #059669;
+$secondaryColor: #86efac;
+$accentColor: #047857;
+$textColor: #111827;
+$backgroundColor: #ffffff;
+$border-radius: 0.5rem;
+$box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+
+@mixin button-style($bgColor, $textColor: white) {
+  border: none;
+  border-radius: $border-radius;
+  padding: 0.75rem 1.5rem;
+
+  background-color: $bgColor;
+
+  font-weight: 600;
+  color: $textColor;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+@mixin button-style-hover {
+  transform: translateY(-0.125rem);
+
+  box-shadow: $box-shadow;
+}
+
+@mixin button-style-active {
+  transform: translateY(0);
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin card-style {
+  margin: 1rem 0;
+  border-radius: $border-radius;
+  padding: 1.5rem;
+
+  background: white;
+  box-shadow: $box-shadow;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: $backgroundColor;
+
+  line-height: 1.6;
+  font-family:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: $textColor;
+}
+
+body .container {
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 0 1.25rem;
+}
+
+@media (max-width: 768px) {
+  body .container {
+    padding: 0 1rem;
+  }
+}
+
+body header {
+  padding: 1rem 0;
+
+  background: white;
+  box-shadow: $box-shadow;
+}
+
+body header .header-content {
+  @include flex-center;
+  justify-content: space-between;
+}
+
+body header .header-content .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $primaryColor;
+}
+
+body header .header-content nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @include flex-center;
+  gap: 1.5rem;
+}
+
+body header .header-content nav ul li a {
+  font-weight: 500;
+  text-decoration: none;
+  color: $textColor;
+
+  transition: color 0.3s ease;
+}
+
+body header .header-content nav ul li a:hover {
+  color: $primaryColor;
+}
+
+body main {
+  padding: 2.5rem 0;
+}
+
+body main .hero {
+  padding: 3.75rem 0;
+
+  text-align: center;
+}
+
+body main .hero h1 {
+  margin-bottom: 1rem;
+
+  font-size: 3rem;
+  color: $primaryColor;
+}
+
+@media (max-width: 768px) {
+  body main .hero h1 {
+    font-size: 2rem;
+  }
+}
+
+body main .hero p {
+  margin-bottom: 2rem;
+
+  font-size: 1.2rem;
+  color: lighten($textColor, 20%);
+}
+
+body main .hero .cta-buttons {
+  @include flex-center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+body main .hero .cta-buttons .btn-primary {
+  @include button-style($primaryColor);
+}
+
+body main .hero .cta-buttons .btn-primary:hover {
+  @include button-style-hover;
+}
+
+body main .hero .cta-buttons .btn-primary:active {
+  @include button-style-active;
+}
+
+body main .hero .cta-buttons .btn-secondary {
+  @include button-style($secondaryColor);
+}
+
+body main .hero .cta-buttons .btn-secondary:hover {
+  @include button-style-hover;
+}
+
+body main .hero .cta-buttons .btn-secondary:active {
+  @include button-style-active;
+}
+
+body main .hero .cta-buttons .btn-accent {
+  @include button-style($accentColor);
+}
+
+body main .hero .cta-buttons .btn-accent:hover {
+  @include button-style-hover;
+}
+
+body main .hero .cta-buttons .btn-accent:active {
+  @include button-style-active;
+}
+
+body main .features {
+  margin: 3.75rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 2rem;
+}
+
+body main .features .feature-card {
+  @include card-style;
+  text-align: center;
+}
+
+body main .features .feature-card .feature-icon {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, $primaryColor, $secondaryColor);
+  @include flex-center;
+  margin: 0 auto 1rem;
+
+  font-size: 1.5rem;
+  color: white;
+}
+
+body main .features .feature-card h3 {
+  margin-bottom: 0.75rem;
+
+  color: $primaryColor;
+}
+
+body main .features .feature-card p {
+  line-height: 1.6;
+  color: lighten($textColor, 15%);
+}
+
+body footer {
+  margin-top: 3.75rem;
+  padding: 2.5rem 0;
+
+  background: darken($backgroundColor, 5%);
+
+  text-align: center;
+}
+
+body footer p {
+  margin: 0;
+
+  color: lighten($textColor, 30%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+
+$button-padding: 0.75rem 1.5rem;
+$button-border-radius: 0.375rem;
+$button-transition: all 0.2s ease;
+
+.button {
+  border: none;
+  border-radius: $button-border-radius;
+  padding: $button-padding;
+
+  display: inline-block;
+
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  transition: $button-transition;
+}
+
+.button.primary {
+  background-color: #3498db;
+
+  color: white;
+}
+
+.button.primary:hover {
+  transform: translateY(-0.0625rem);
+
+  background-color: darken(#3498db, 10%);
+}
+
+.button.secondary {
+  background-color: #95a5a6;
+
+  color: white;
+}
+
+.button.secondary:hover {
+  transform: translateY(-0.0625rem);
+
+  background-color: darken(#95a5a6, 10%);
+}
+
+.button.outline {
+  border: 2px solid #3498db;
+
+  background-color: transparent;
+
+  color: #3498db;
+}
+
+.button.outline:hover {
+  background-color: #3498db;
+
+  color: white;
+}
+
+.button.small {
+  padding: 0.5rem 1rem;
+
+  font-size: 0.875rem;
+}
+
+.button.large {
+  padding: 1rem 2rem;
+
+  font-size: 1.125rem;
+}
+
+.button:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  transform: none;
+}
+
+.card {
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+
+  background: white;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.card .card-header {
+  margin-bottom: 1rem;
+}
+
+.card .card-header .card-title {
+  margin: 0;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.card .card-header .card-subtitle {
+  margin: 0.25rem 0 0 0;
+
+  font-size: 0.875rem;
+  color: #7f8c8d;
+}
+
+.card .card-body {
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.card .card-footer {
+  margin-top: 1rem;
+  border-top: 1px solid #ecf0f1;
+  padding-top: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group .form-label {
+  margin-bottom: 0.5rem;
+
+  display: block;
+
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.form-group .form-input {
+  width: 100%;
+  border: 2px solid #ecf0f1;
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+
+  font-size: 1rem;
+
+  transition: border-color 0.2s ease;
+}
+
+.form-group .form-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.form-group .form-input.error {
+  border-color: #e74c3c;
+}
+
+.form-group .form-error {
+  margin-top: 0.25rem;
+
+  font-size: 0.875rem;
+  color: #e74c3c;
+}
