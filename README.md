@@ -2,7 +2,7 @@
 
 # Lime
 
-Fresh startup project.
+Fresh 2 startup project.
 
 ## Dependencies
 
